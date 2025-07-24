@@ -1,1 +1,11 @@
-venv
+target/
+dbt_packages/
+
+venv/
+.env/
+
+.DS_Store
+
+.vscode/
+
+.ipynb_checkpoints/
