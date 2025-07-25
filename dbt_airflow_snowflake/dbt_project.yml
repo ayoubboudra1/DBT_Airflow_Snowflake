@@ -32,9 +32,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_airflow_snowflake:
     # Config indicated by + and applies to all files under models/example/
-    stagging:
-      +materialized: view
-      snowflake_warehouse: wh_dbt_airflow_snowflake
     marts:
       +materialized: table
       snowflake_warehouse: wh_dbt_airflow_snowflake
