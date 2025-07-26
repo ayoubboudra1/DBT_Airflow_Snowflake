@@ -1,0 +1,21 @@
+versionL: 1.0
+
+sources:
+  - name: stagging_source
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: lineitem
+        identifier: LINEITEM
+      - name: orders
+        identifier: ORDERS
+      - name: customer
+        identifier: CUSTOMER
+      - name: part
+        identifier: PART
+      - name: supplier
+        identifier: SUPPLIER
+      - name: nation
+        identifier: NATION
+      - name: region
+        identifier: REGION
